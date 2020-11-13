@@ -1,0 +1,37 @@
+Pod Gap Webhook Integration
+__________________________________________________________________________
+								|
+DESCRIPTION (PART 1)						| STATUS
+________________________________________________________________+_________
+
+1. Have script either run constantly, or start up automatically	: DONE
+	at 06:00 and close out at 18:00				: 
+2. Get pod gap data from Roboscout 				: DONE
+3. Parse pod gap data and put into variables 			: DONE
+4. Pass variables through post_message function 		: DONE
+5. Format and output text to Chime group 			: DONE
+6. If data is not up to the standard, ask present members to 	: DONE
+	explain what caused this to happen			:
+7. Continue reporting pod gaps every hour from 06:00 - 18:00 	: DONE
+________________________________________________________________+_________
+								|
+DESCRIPTION (PART 2)						| STATUS		
+________________________________________________________________+_________
+
+1. Once everything is complete and tested, get Webhook URL	: DONE
+2. Swap out test Webhook URL with actual Webhook URL		: DONE
+________________________________________________________________+_________
+								|
+NOTES								|
+________________________________________________________________+_________
+
+The purpose behind this Pod Gap Webhook Integration is to simplify and
+Streamline the process of gathering this data. Previously, this data was
+Being manually retrieved and entered into the chatroom. In the future, 
+This same program could be enhanced to include more information pertinent
+To the daily flow of the CAP department. Removing the need to manually 
+Retrieve and post such information can allow users to worry about more
+Important stuff, such as improving on the metrics being posted. If data
+Posted to the chatroom is below the set standards, the program will call
+Out to the present members for an explanation to attempt to keep everyone
+Up to date on what is going on in the AR floor.
